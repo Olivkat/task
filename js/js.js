@@ -2,7 +2,7 @@ btn.addEventListener("click",fnc);
 
 
 function fnc (){
-    if ((login.value == 'admin') && (pass.value == 'pass')){
+    if ((login.value == 'kat') && (pass.value == '123')){
         alert("You login.");
     }
     else{
