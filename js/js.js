@@ -4,7 +4,7 @@ function fnc (){
     console.log(a2.checked)
     console.log(a3.checked)
     console.log(a4.checked)
-   if (a2.checked){
+   if (a4.checked){
        alert("You - win!")
    }
 }
