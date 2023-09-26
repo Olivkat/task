@@ -1,13 +1,10 @@
 btn.addEventListener("click",fnc);
-
-
 function fnc (){
-    if ((login.value == 'kat') && (pass.value == '123')){
-        alert("You login.");
-    }
-    else{
-        alert("Login or password is not correct");
-    }
-    console.log(login.value);
-    console.log(pass.value);
+    console.log(a1.checked)
+    console.log(a2.checked)
+    console.log(a3.checked)
+    console.log(a4.checked)
+   if (a2.checked){
+       alert("You - win!")
+   }
 }
